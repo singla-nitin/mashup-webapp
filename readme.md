@@ -7,18 +7,6 @@ This project is a **Music Mashup Generator** that downloads YouTube videos, extr
 
 ---
 
-## Table of Contents
-
-1. [Features](#features)
-2. [Technologies Used](#technologies-used)
-3. [Installation Instructions](#installation-instructions)
-4. [Folder Structure](#folder-structure)
-5. [Usage](#usage)
-6. [API Reference](#api-reference)
-7. [License](#license)
-
----
-
 ## Features
 
 - **Download YouTube videos** based on a singer's name.
