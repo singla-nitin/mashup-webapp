@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mashup Creator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create Your Music Mashup</h1>
+      <form id="mashupForm">
+        <label for="singer">Singer Name:</label>
+        <input type="text" id="singer" required />
+
+        <label for="videos">Number of Videos:</label>
+        <input type="number" id="videos" min="10" required />
+
+        <label for="duration">Duration (sec):</label>
+        <input type="number" id="duration" min="20" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" required />
+
+        <button type="submit">Create Mashup</button>
+      </form>
+      <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
